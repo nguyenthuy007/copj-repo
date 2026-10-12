@@ -47,7 +47,7 @@ const CONVERSATIONS: Record<
     messages: [
       { id: '1', text: 'Chào bạn, chiều nay bạn có rảnh dắt cún đi dạo không?', isMe: false },
       { id: '2', text: 'Chào bạn, mình có nhận nhé. Bé cún nhà bạn thuộc giống gì ạ?', isMe: true },
-      { id: '3', text: 'Bé là Corgi nha, ngoan lắm. Mình gửi ảnh cho bạn xem nè!', isMe: false },
+      { id: '3', text: 'Bé là Corgi nha, ngoan lắm. Mình gửi ảnh cho bạn xem nè!', isMe: false},
       { id: '4', isMe: false, image: require('@/assets/images/cún.jpg') },
     ],
   },
@@ -375,7 +375,7 @@ const styles = StyleSheet.create({
     height: 200,
     borderRadius: 16,
     backgroundColor: '#f3f4f6',
-  },
+   },
   textLeft: {
     color: '#000000',
     fontSize: 15,
